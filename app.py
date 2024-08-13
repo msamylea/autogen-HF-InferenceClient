@@ -15,7 +15,6 @@ class HuggingFaceClient:
         api_key: Optional[Union[str, bool, None]] = None,
         model: Optional[Union[str, None]] = None,
         base_url: Optional[str] = None,
-        inference_mode: Optional[Literal["auto", "local", "remote"]] = "auto",
         config: Optional[OpenAIWrapper] = None,
         **kwargs,
     ):
